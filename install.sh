@@ -41,7 +41,7 @@ echo "Checking config and Telegram access..."
 /usr/bin/python3 -I "$SCRIPT" --check --config "$CONFIG"
 
 touch /var/log/gohome.log
-chmod 640 /var/log/gohome.log
+chmod 644 /var/log/gohome.log   # secrets are masked, so tail -f works without sudo
 
 if launchctl print "system/$LABEL" >/dev/null 2>&1; then
     launchctl bootout "system/$LABEL" || true
