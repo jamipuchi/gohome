@@ -1,0 +1,14 @@
+{
+  "telegram_bot_token": "123456789:AAExampleTokenFromBotFather",
+  "telegram_chat_id": 123456789,
+  "hotspot_ssid": "My iPhone",
+  "hotspot_password": "",
+  "wifi_interface": "en0",
+  "ask_timeout_seconds": 180,
+  "max_awake_minutes": 90,
+  "hotspot_retry_seconds": 10,
+  "hotspot_give_up_seconds": 300,
+  "hotspot_subnet_prefix": "172.20.10.",
+  "min_battery_percent": 10,
+  "skip_when_external_display": true
+}

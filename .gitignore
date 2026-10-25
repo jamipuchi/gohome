@@ -1,0 +1,5 @@
+# real configs hold the bot token and hotspot password
+gohome.json
+*.local.json
+__pycache__/
+*.log
